@@ -13,3 +13,7 @@ services:
     build: './Angel_Service_User'
     ports:
       - "9002:8080"
+  order:
+    build: './Angel_Service_OrderManagement'
+    ports:
+      - "9003:8080"
