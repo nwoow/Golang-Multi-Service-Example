@@ -22,21 +22,6 @@ After installing packages simply run this:
  
  	http://localhost:8080/
 
-This will capture a log with error and you can see the logs in this URL:
-
-	http://localhost:8080/logs
-	
-
-
- # Objective of the code:
- 
- This code is using logrus logger to log all the logs in file called gin.log as json.
- 
- And whenever it sees any statuscode which is less than:
- 
- 	statusCode > 399
-	
-It will capture the logs in databse and you can see that logs using URL/logs 
 
 # Run the code using Docker:
 

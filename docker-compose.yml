@@ -1,11 +1,15 @@
 version: '3'
 
 services:
-  web:
+  cart:
     build: './Angel_Service_Cart'
     ports:
       - "9000:8080"
-  web2:
+  product:
     build: './Angel_Service_Product'
     ports:
       - "9001:8080"
+  users:
+    build: './Angel_Service_User'
+    ports:
+      - "9002:8080"
