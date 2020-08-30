@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  web:
+    build: './Angel_Service_Cart'
+    ports:
+      - "9000:8080"
+  web2:
+    build: './Angel_Service_Product'
+    ports:
+      - "9001:8080"
